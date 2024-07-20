@@ -104,6 +104,7 @@ def main():
 
     """ Main calling functio """
 
+    # Email and password used for authentication
     email = ""
     password = ""
 
