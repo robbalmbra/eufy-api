@@ -27,7 +27,7 @@ curl --location 'https://home-api.eufylife.com/v1/device/' \
 --header 'token: <ACCESS_TOKEN>'
 ```
 
-The occunpied python file ['example.py']('example.py'), contains a class and methods to authenticate and pull information about devices.
+The occunpied python file ['example.py'](example.py), contains a class and methods to authenticate and pull information about devices.
 
 # API Calls
 
