@@ -31,7 +31,7 @@ The python file [example.py](example.py) contains a class and methods to authent
 
 # API Calls
 
-Calls extracted from eufy apk.
+Calls extracted from eufylife apk.
 
 | Method | URL | Description |
 |--------|-----|-------------|
