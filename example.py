@@ -14,6 +14,14 @@ class EufyAPIClient:
 
     def request_url(self, call, method="GET", **kwargs):
 
+        """ Request URL based on the input parameters
+
+        :param call: API call
+        :param method: HTTP method
+        :param **kwargs: Kwargs to pass to request
+        :return response: Response from http request
+        """
+
         # Form URL
         url = f"https://{self.endpoint}{call}"
 
