@@ -46,7 +46,7 @@ class EufyAPIClient:
 
             return response
         else:
-            print(f"Request failed with status code {response.status_code}: {response.text}")
+            raise Exception(f"Request failed with status code {response.status_code}: {response.text}")
             return None
 
     def authenticate(self, email, password):
