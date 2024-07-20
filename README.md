@@ -227,3 +227,8 @@ Calls extracted from eufy apk.
 | PUT | reminder/{id} | updateReminder |
 | PUT | tuya/add_device | uploadTuyaDeivceInfo |
 | PUT | user/customer | createMember |
+
+# Todo
+
+* Retrieve payloads for POST methods
+* Build out example.py class for other API calls
